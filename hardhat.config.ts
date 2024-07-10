@@ -194,6 +194,14 @@ const config: HardhatUserConfig = {
           browserURL: "https://explorer.reya.network/",
         },
       },
+      {
+        network: "winrChain",
+        chainId: 777777,
+        urls: {
+          apiURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/api?",
+          browserURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/",
+        },
+      },
     ],
   },
   networks: {
