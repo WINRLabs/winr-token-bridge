@@ -51,6 +51,7 @@ function getRemappings() {
 }
 
 const liveNetworks = [
+  HardhatChainName.WINR,
   HardhatChainName.ARBITRUM_SEPOLIA,
   HardhatChainName.OPTIMISM_SEPOLIA,
   HardhatChainName.POLYGON_MAINNET,
@@ -79,7 +80,7 @@ liveNetworks.forEach((n) => {
 });
 
 const config: HardhatUserConfig = {
-  defaultNetwork: "hardhat",
+  defaultNetwork: "arbitrum",
   abiExporter: {
     path: "artifacts/abi",
     flat: true,
@@ -104,6 +105,7 @@ const config: HardhatUserConfig = {
       "lyra-testnet": "none",
       reya_cronos: "none",
       reya: "none",
+      winr: "none",
     },
     customChains: [
       {
@@ -195,7 +197,7 @@ const config: HardhatUserConfig = {
         },
       },
       {
-        network: "winrChain",
+        network: "winr",
         chainId: 777777,
         urls: {
           apiURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/api?",

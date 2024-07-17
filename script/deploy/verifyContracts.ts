@@ -41,6 +41,8 @@ export const main = async () => {
 
       const chain = chains[chainIndex];
       // hre.changeNetwork(ChainSlugToHardhatKey[chain]);
+      console.log("Current network:", hre.network.name);
+      console.log("Chain:", chain);
       if (hre.network.name !== ChainSlugToHardhatKey[chain]) {
         console.log(
           `Skipping verification for chain ${chain} as the network param does not match.`

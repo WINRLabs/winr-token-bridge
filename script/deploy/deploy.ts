@@ -178,7 +178,7 @@ const deployChainContracts = async (
       `Error in deploying setup contracts for ${deployUtils.currentChainSlug}`,
       error
     );
-    throw error;
+    throw error.message;
   }
 
   await storeTokenAddresses(
@@ -277,6 +277,7 @@ const deployControllerChainContracts = async (
         ExistingTokenAddresses[deployParams.currentChainSlug]?.[
           deployParams.currentToken
         ];
+
       if (token) mintableToken = token;
       else throw new Error("Token not found on app chain");
 

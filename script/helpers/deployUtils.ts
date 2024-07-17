@@ -61,6 +61,7 @@ export const getOrDeploy = async (
     storedContactAddress =
       deployUtils.addresses[SuperBridgeContracts.Controller];
   }
+
   if (!storedContactAddress) {
     contract = await deployContractWithArgs(
       contractName,
@@ -167,6 +168,7 @@ export async function deployContractWithArgs(
       const chainName = chainIdReverseMap.get(chainId.toString());
       const chainSlug = ChainSlug[chainName];
 
+      
       const contract: Contract = await Contract.connect(signer).deploy(
         ...args,
         {

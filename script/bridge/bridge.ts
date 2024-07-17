@@ -15,10 +15,10 @@ import { getBridgeContract, getTokenContract } from "../helpers/common";
 import { tokenDecimals } from "../../src/enums";
 
 const srcChain = ChainSlug.ARBITRUM;
-const dstChain = ChainSlug.OPTIMISM;
+const dstChain = ChainSlug.WINR;
 const gasLimit = 500_000;
 // without decimals
-const amount = 1;
+const amount = 0.00001;
 
 export const main = async () => {
   try {
