@@ -43,7 +43,7 @@ export const overrides: {
   },
   [ChainSlug.OPTIMISM]: {
     type,
-    gasLimit: 2_000_000,
+    // gasLimit: 2_000_000,
     gasPrice,
   },
   [ChainSlug.ARBITRUM]: {
