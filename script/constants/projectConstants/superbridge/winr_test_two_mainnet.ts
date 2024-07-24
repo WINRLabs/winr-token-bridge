@@ -9,14 +9,14 @@ import { Tokens } from "../../../../src/enums";
 export const pc: ProjectConstants = {
   [DeploymentMode.PROD]: {
     [Tokens.USDC]: {
-      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.BASE, ChainSlug.OPTIMISM],
+      vaultChains: [ChainSlug.ARBITRUM],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
       },
     },
     [Tokens.WETH]: {
-      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.BASE, ChainSlug.OPTIMISM],
+      vaultChains: [ChainSlug.ARBITRUM],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
@@ -37,7 +37,7 @@ export const pc: ProjectConstants = {
       },
     },
     [Tokens.ETH]: {
-      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.BASE, ChainSlug.OPTIMISM],
+      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.OPTIMISM],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,

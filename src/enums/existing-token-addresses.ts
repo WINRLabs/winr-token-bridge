@@ -71,6 +71,7 @@ export const ExistingTokenAddresses: {
     [Tokens.USDT]: "0xED5f4963cF7E5F01947b746A833eDA942A0bfEf9",
     [Tokens.WBTC]: "0x242E00E1e97a7751DC2226864DBfadb6E18B4029",
     [Tokens.WETH]: "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc",
+    [Tokens.ETH]: "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc",
   },
   [ChainSlug.SEPOLIA]: {
     [Tokens.USDC]: "0x565810cbfa3Cf1390963E5aFa2fB953795686339",

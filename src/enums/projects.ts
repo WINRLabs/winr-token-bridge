@@ -20,4 +20,5 @@ export enum Project {
   TESTING_TESTNET = "testing_testnet",
   WINR_BRIDGE_MAINNET = "winr_bridge_mainnet",
   WINR_TEST_MAINNET = "winr_test_mainnet",
+  WINR_TEST_TWO_MAINNET = "winr_test_two_mainnet",
 }

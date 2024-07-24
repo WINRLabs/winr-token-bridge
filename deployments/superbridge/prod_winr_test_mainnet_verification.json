@@ -1,4 +1,24 @@
 {
+  "8453": [
+    [
+      "0x58CDCf55f2c8660674F17561334F6370cbaDeEF8",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x4bb39c44a5A5E198cD014EAd2d3597a06da711E9",
+        "0x12E6e58864cE4402cF2B4B8a8E9c75eAD7280156",
+        777777
+      ]
+    ],
+    [
+      "0x4bb39c44a5A5E198cD014EAd2d3597a06da711E9",
+      "Vault",
+      "contracts/bridge/Vault.sol",
+      [
+        "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+      ]
+    ]
+  ],
   "42161": [
     [
       "0xDCB1e0893Cebf874ccCe3c3e1319F6A85F5C5C94",
@@ -14,7 +34,9 @@
       "0xDb4815E3135b1a688f0e5c64f2A49530ff68353b",
       "Vault",
       "contracts/bridge/Vault.sol",
-      ["0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"]
+      [
+        "0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9"
+      ]
     ],
     [
       "0x52D6bA4A431EAb115E457529E9B3eFB368804A44",
@@ -30,7 +52,9 @@
       "0xfFD06B0CE72Aa014dd69cE63fBe33562480d5E9f",
       "Vault",
       "contracts/bridge/Vault.sol",
-      ["0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"]
+      [
+        "0x2f2a2543b76a4166549f7aab2e75bef0aefc5b0f"
+      ]
     ],
     [
       "0xd4C534d007C97c6b51aCbd8afCA78e98956D66C6",
@@ -46,7 +70,9 @@
       "0x48919D7308325f156fD0507a96A4e67204384B0B",
       "Vault",
       "contracts/bridge/Vault.sol",
-      ["0x82af49447d8a07e3bd95bd0d56f35241523fbab1"]
+      [
+        "0x82af49447d8a07e3bd95bd0d56f35241523fbab1"
+      ]
     ],
     [
       "0x349cF4EAac6398825E1bbA8332468d4dF9E4C5a4",
@@ -62,10 +88,52 @@
       "0xD55536658d34b22C8982d66653018D8FD55A5263",
       "Vault",
       "contracts/bridge/Vault.sol",
-      ["0xaf88d065e77c8cC2239327C5EDb3A432268e5831"]
+      [
+        "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+      ]
     ]
   ],
   "777777": [
+    [
+      "0x20B027dB905D5b938AD844eEe47AF248F6F873fe",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x821e192227B77007f3C193e26579Fc947b10e655",
+        "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
+        8453
+      ]
+    ],
+    [
+      "0x592496696A0bc06fbf2Af56410Ea691c2152b838",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0xE7214118cD652478e56e883A5ac6A789C822B135",
+        "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
+        8453
+      ]
+    ],
+    [
+      "0x6b16A205d0231D6bf051525dDDB9A25532499969",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x9648C937Bd4957a83cD8737D1838070cEC19030d",
+        "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
+        8453
+      ]
+    ],
+    [
+      "0x25dC9435579f6cF0ae5a47434461B926DcA30756",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0xF9fA2946A2933747813f835b7A22E9088B7BA3Bb",
+        "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
+        8453
+      ]
+    ],
     [
       "0xC5D3d5a4B8E6A6BC2e6f559ac0d6862aC7091Fe2",
       "ConnectorPlug",
@@ -90,7 +158,9 @@
       "0x9648C937Bd4957a83cD8737D1838070cEC19030d",
       "Controller",
       "contracts/bridge/Controller.sol",
-      ["0xED5f4963cF7E5F01947b746A833eDA942A0bfEf9"]
+      [
+        "0xED5f4963cF7E5F01947b746A833eDA942A0bfEf9"
+      ]
     ],
     [
       "0x9e9b859be16a8a5F342556adb51fAEDc7C05c482",
@@ -106,7 +176,9 @@
       "0xE7214118cD652478e56e883A5ac6A789C822B135",
       "Controller",
       "contracts/bridge/Controller.sol",
-      ["0x242E00E1e97a7751DC2226864DBfadb6E18B4029"]
+      [
+        "0x242E00E1e97a7751DC2226864DBfadb6E18B4029"
+      ]
     ],
     [
       "0xbEaB971B9e99022e1aBC7fe819d234C2d94F8Fcf",
@@ -122,7 +194,9 @@
       "0x821e192227B77007f3C193e26579Fc947b10e655",
       "Controller",
       "contracts/bridge/Controller.sol",
-      ["0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc"]
+      [
+        "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc"
+      ]
     ],
     [
       "0x45007ED26725a1B4Bc0c00eB2E1b420734D46b60",
@@ -138,7 +212,9 @@
       "0xF9fA2946A2933747813f835b7A22E9088B7BA3Bb",
       "Controller",
       "contracts/bridge/Controller.sol",
-      ["0xC6f5DD2e293783a5a5427Ca0aE45C8561b83c80d"]
+      [
+        "0xC6f5DD2e293783a5a5427Ca0aE45C8561b83c80d"
+      ]
     ]
   ]
 }

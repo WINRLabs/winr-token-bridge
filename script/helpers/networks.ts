@@ -43,7 +43,7 @@ export const overrides: {
   },
   [ChainSlug.OPTIMISM]: {
     type,
-    // gasLimit: 2_000_000,
+    gasLimit: 5_000_000,
     gasPrice,
   },
   [ChainSlug.ARBITRUM]: {
@@ -88,7 +88,7 @@ export const overrides: {
   },
   [ChainSlug.BASE]: {
     // type: 1,
-    gasLimit,
+    gasLimit: 5_000_000,
     gasPrice,
   },
   [ChainSlug.REYA_CRONOS]: {
