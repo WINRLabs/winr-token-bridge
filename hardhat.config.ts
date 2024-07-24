@@ -106,6 +106,7 @@ const config: HardhatUserConfig = {
       reya_cronos: "none",
       reya: "none",
       winr: "none",
+      aevo: "none",
     },
     customChains: [
       {
@@ -202,6 +203,14 @@ const config: HardhatUserConfig = {
         urls: {
           apiURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/api?",
           browserURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/",
+        },
+      },
+      {
+        network: "aevo",
+        chainId: hardhatChainNameToSlug[HardhatChainName.AEVO],
+        urls: {
+          apiURL: "https://explorer.aevo.xyz/api",
+          browserURL: "https://explorer.aevo.xyz/",
         },
       },
     ],
