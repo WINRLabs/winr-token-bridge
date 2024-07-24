@@ -31,7 +31,7 @@
       "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE"
     },
     "10": {
-      "USDC": "0x8e0b7e6062272B5eF4524250bFFF8e5Bd3497757",
+      "USDC": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
       "USDC.e": "0x7f5c764cbc14f9669b88837ca1490cca17c31607",
       "USDT": "0x94b008aa00579c1307b0ef2c499ad98a8ce58e58",
       "WETH": "0x4200000000000000000000000000000000000006",
@@ -82,6 +82,13 @@
       "MTK": "0x094553F42B44Ea1492b0dcA5f4134F23f45db742",
       "WBTC": "0x1019958C2BD43B882a4e1349337a32Ef9563FC4D"
     },
+    "777777": {
+      "USDC": "0xC6f5DD2e293783a5a5427Ca0aE45C8561b83c80d",
+      "USDT": "0xED5f4963cF7E5F01947b746A833eDA942A0bfEf9",
+      "WBTC": "0x242E00E1e97a7751DC2226864DBfadb6E18B4029",
+      "WETH": "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc",
+      "ETH": "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc"
+    },
     "11155111": {
       "USDC": "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
       "USDT": "0xB4130e87A180b9448286B291331aEe8A9C154A3A",
@@ -98,7 +105,7 @@
       "USDT": "0x2d1abA6FaBAe80bF5C1C9EA433AAe9030E07CB22",
       "DAI": "0xDC0258dc3dB980090E97EbF4f1FD9Cc3C5AD5894",
       "WETH": "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
-      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+      "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeşeeEEeE",
       "WBTC": "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7"
     }
   },
@@ -141,7 +148,10 @@
     "adg_mainnet",
     "aavegotchi_mainnet",
     "timeswap_test_mainnet",
-    "testing_testnet"
+    "testing_testnet",
+    "winr_bridge_mainnet",
+    "winr_test_mainnet",
+    "winr_test_two_mainnet"
   ],
   "tokens": [
     "MOON",
