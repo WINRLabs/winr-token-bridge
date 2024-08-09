@@ -80,7 +80,7 @@ liveNetworks.forEach((n) => {
 });
 
 const config: HardhatUserConfig = {
-  defaultNetwork: "arbitrum",
+  defaultNetwork: "winr",
   abiExporter: {
     path: "artifacts/abi",
     flat: true,
