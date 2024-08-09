@@ -1,18 +1,28 @@
-import { BigNumber, utils } from "ethers";
-
-import { getSignerFromChainSlug, overrides } from "../helpers/networks";
-import { getSuperBridgeAddresses, getSuperTokenAddresses } from "../helpers";
 import { ChainSlug } from "@socket.tech/dl-core";
+import { BigNumber, utils } from "ethers";
+import { checkSendingLimit } from "../../../script/bridge/utils";
+import {
+  getTokens,
+  isSuperBridge,
+  isSuperToken,
+} from "../../../script/constants";
+import {
+  getSuperBridgeAddresses,
+  getSuperTokenAddresses,
+  getSignerFromChainSlug,
+  overrides,
+} from "../../../script/helpers";
+import {
+  getBridgeContract,
+  getTokenContract,
+} from "../../../script/helpers/common";
+import { tokenDecimals } from "../../enums";
 import {
   SBAddresses,
   STAddresses,
-  STTokenAddresses,
   SBTokenAddresses,
-} from "../../src";
-import { getTokens, isSuperBridge, isSuperToken } from "../constants/config";
-import { checkSendingLimit } from "./utils";
-import { getBridgeContract, getTokenContract } from "../helpers/common";
-import { tokenDecimals } from "../../src/enums";
+  STTokenAddresses,
+} from "../../types";
 
 const srcChain = ChainSlug.WINR;
 const dstChain = ChainSlug.ARBITRUM;

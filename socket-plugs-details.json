@@ -83,11 +83,12 @@
       "WBTC": "0x1019958C2BD43B882a4e1349337a32Ef9563FC4D"
     },
     "777777": {
-      "USDC": "0xC6f5DD2e293783a5a5427Ca0aE45C8561b83c80d",
-      "USDT": "0xED5f4963cF7E5F01947b746A833eDA942A0bfEf9",
-      "WBTC": "0x242E00E1e97a7751DC2226864DBfadb6E18B4029",
-      "WETH": "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc",
-      "ETH": "0xb4ee7eAbcEDa54120737e5e32EaFb164880f31Bc"
+      "USDC": "0x59edbB343991D30f77dcdBad94003777e9B09BA9",
+      "USDC.e": "0x59edbB343991D30f77dcdBad94003777e9B09BA9",
+      "USDT": "0x0381132632E9E27A8f37F1bc56bd5a62d21a382B",
+      "WBTC": "0x44BD533C211C78e01f0F738826e8b18Bb9b936f5",
+      "WETH": "0x155Ede866bC50EdE1A82E471794367E312431D07",
+      "ETH": "0x155Ede866bC50EdE1A82E471794367E312431D07"
     },
     "11155111": {
       "USDC": "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
@@ -149,9 +150,7 @@
     "aavegotchi_mainnet",
     "timeswap_test_mainnet",
     "testing_testnet",
-    "winr_bridge_mainnet",
-    "winr_test_mainnet",
-    "winr_test_two_mainnet"
+    "winr_prod_mainnet"
   ],
   "tokens": [
     "MOON",
