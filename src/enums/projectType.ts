@@ -22,4 +22,5 @@ export const ProjectTypeMap: Record<Project, ProjectType> = {
   [Project.TIMESWAP_TEST_MAINNET]: ProjectType.SUPERTOKEN,
   [Project.TESTING_TESTNET]: ProjectType.SUPERTOKEN,
   [Project.WINR_PROD_MAINNET]: ProjectType.SUPERBRIDGE,
+  [Project.WINR_DEVNET_BRIDGE_TESTNET]: ProjectType.SUPERBRIDGE,
 };

@@ -1718,6 +1718,16 @@
             "FAST": "0x6d70e8B6a70215A42B4f9062FC4bfcD03bc4D7C7"
           }
         }
+      },
+      "ARB": {
+        "isAppChain": false,
+        "NonMintableToken": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+        "Vault": "0x023d27390aEd70aA39823A1e1e06a0b075400214",
+        "connectors": {
+          "777777": {
+            "FAST": "0xe436c3FD3aa8886eAE575B8ab94c4CF8Ca07E2F2"
+          }
+        }
       }
     },
     "777777": {
@@ -1781,6 +1791,16 @@
         "connectors": {
           "42161": {
             "FAST": "0x2e8b2818A1F161A7Ce986eD0314b23F347D7D46e"
+          }
+        }
+      },
+      "ARB": {
+        "isAppChain": true,
+        "MintableToken": "0xF2857668777135E22f8CD53C97aBf8821b7F0bdf",
+        "Controller": "0x5983357efB963a0007B5acedFDD0a2a0cdded937",
+        "connectors": {
+          "42161": {
+            "FAST": "0x524b79F046227223DB44fB70eb3B7CC182f63f10"
           }
         }
       }

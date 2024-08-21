@@ -50,5 +50,12 @@ export const pc: ProjectConstants = {
         hookType: Hooks.NO_HOOK,
       },
     },
+    [Tokens.ARB]: {
+      vaultChains: [ChainSlug.ARBITRUM],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
   },
 };

@@ -56,6 +56,7 @@ export const ExistingTokenAddresses: {
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.MTK]: "0x094553F42B44Ea1492b0dcA5f4134F23f45db742",
     [Tokens.STIME]: "0x17AfF554423D2C40A1BBF51b443E9d43dd8AE1eb",
+    [Tokens.ARB]: "0x912CE59144191C1204E64559FE8253a0e49E6548",
   },
   [ChainSlug.ARBITRUM_SEPOLIA]: {
     [Tokens.USDC]: "0x8537307810fC40F4073A12a38554D4Ff78EfFf41",
@@ -73,6 +74,7 @@ export const ExistingTokenAddresses: {
     [Tokens.WBTC]: "0x44BD533C211C78e01f0F738826e8b18Bb9b936f5",
     [Tokens.WETH]: "0xE60256921AE414D7B35d6e881e47931f45E027cf",
     [Tokens.ETH]: "0xE60256921AE414D7B35d6e881e47931f45E027cf",
+    [Tokens.ARB]: "0xF2857668777135E22f8CD53C97aBf8821b7F0bdf",
   },
   [ChainSlug.SEPOLIA]: {
     [Tokens.USDC]: "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
