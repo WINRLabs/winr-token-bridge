@@ -57,5 +57,19 @@ export const pc: ProjectConstants = {
         hookType: Hooks.NO_HOOK,
       },
     },
+    [Tokens.WINR]: {
+      vaultChains: [ChainSlug.ARBITRUM],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    // [Tokens.WWINR]: {
+    //   vaultChains: [ChainSlug.ARBITRUM],
+    //   controllerChains: [ChainSlug.WINR],
+    //   hook: {
+    //     hookType: Hooks.NO_HOOK,
+    //   },
+    // },
   },
 };

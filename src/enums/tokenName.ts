@@ -20,4 +20,6 @@ export const tokenName: { [key in Tokens]: string } = {
   [Tokens.GLTR]: "GAX Liquidity Token Reward",
   [Tokens.STIME]: "SuperTimeToken",
   [Tokens.ARB]: "Arbitrum",
+  [Tokens.WWINR]: "Wrapped WINR",
+  [Tokens.WINR]: "WINR",
 };

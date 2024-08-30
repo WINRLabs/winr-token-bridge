@@ -1728,6 +1728,16 @@
             "FAST": "0xe436c3FD3aa8886eAE575B8ab94c4CF8Ca07E2F2"
           }
         }
+      },
+      "WINR": {
+        "isAppChain": false,
+        "NonMintableToken": "0xD77B108d4f6cefaa0Cae9506A934e825BEccA46E",
+        "Vault": "0x65B98c6841C44dE72533764d3456068393D8232E",
+        "connectors": {
+          "777777": {
+            "FAST": "0xcEF66deb4437d8e0fa1f3187FE8c62A73c3F497b"
+          }
+        }
       }
     },
     "777777": {
@@ -1801,6 +1811,16 @@
         "connectors": {
           "42161": {
             "FAST": "0x524b79F046227223DB44fB70eb3B7CC182f63f10"
+          }
+        }
+      },
+      "WINR": {
+        "isAppChain": true,
+        "MintableToken": "0xEBA05e8d65aB33EcB83fDcd58599657daD19d5a5",
+        "Controller": "0x2C72122F7d0B33514fbaf1e0a48Cb65B21D30cbF",
+        "connectors": {
+          "42161": {
+            "FAST": "0x693c470C00Be277518d83Da1ea514d75d4ed982D"
           }
         }
       }

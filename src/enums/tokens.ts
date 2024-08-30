@@ -18,4 +18,6 @@ export enum Tokens {
   GLTR = "GLTR",
   STIME = "STIME",
   ARB = "ARB",
+  WWINR = "WWINR",
+  WINR = "WINR",
 }

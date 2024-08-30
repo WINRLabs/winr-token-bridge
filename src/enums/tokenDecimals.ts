@@ -20,4 +20,6 @@ export const tokenDecimals: { [key in Tokens]: number } = {
   [Tokens.GLTR]: 18,
   [Tokens.STIME]: 18,
   [Tokens.ARB]: 18,
+  [Tokens.WWINR]: 18,
+  [Tokens.WINR]: 18,
 };
