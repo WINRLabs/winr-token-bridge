@@ -56,7 +56,8 @@ export const CustomNetworksConfig = {
 
 function getChainConfig(chain: string): NetworkUserConfig {
   return (
-    CustomNetworksConfig[chain] ?? {
+    // CustomNetworksConfig[chain] ??
+    {
       accounts: [`0x${privateKey}`],
       chainId: ChainSlugToId[hardhatChainNameToSlug[chain]],
       url: getJsonRpcUrl(hardhatChainNameToSlug[chain]),
@@ -111,6 +112,7 @@ const config: HardhatUserConfig = {
       optimisticEthereum: process.env.OPTIMISM_API_KEY || "",
       [HardhatChainName.OPTIMISM_SEPOLIA]: process.env.OPTIMISM_API_KEY || "",
       polygon: process.env.POLYGONSCAN_API_KEY || "",
+
       [HardhatChainName.BASE]: process.env.BASESCAN_API_KEY || "",
       [HardhatChainName.LYRA]: "none",
       [HardhatChainName.LYRA_TESTNET]: "none",
@@ -203,14 +205,14 @@ const config: HardhatUserConfig = {
           browserURL: "https://explorer.aevo.xyz/",
         },
       },
-      {
-        network: CustomNetworks.POLTER_DEVNET,
-        chainId: CustomNetworksConfig[CustomNetworks.POLTER_DEVNET].chainId,
-        urls: {
-          apiURL: "https://polter-sepolia-explorer-be.devnet.alchemy.com/api",
-          browserURL: "https://polter-sepolia-explorer.devnet.alchemy.com/",
-        },
-      },
+      // {
+      //   network: CustomNetworks.POLTER_DEVNET,
+      //   chainId: CustomNetworksConfig[CustomNetworks.POLTER_DEVNET].chainId,
+      //   urls: {
+      //     apiURL: "https://polter-sepolia-explorer-be.devnet.alchemy.com/api",
+      //     browserURL: "https://polter-sepolia-explorer.devnet.alchemy.com/",
+      //   },
+      // },
     ],
   },
   networks: {

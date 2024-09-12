@@ -1748,38 +1748,6 @@
         }
       }
     },
-    "56": {
-      "USDC": {
-        "isAppChain": false,
-        "NonMintableToken": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
-        "Vault": "0x4bb39c44a5A5E198cD014EAd2d3597a06da711E9",
-        "connectors": {
-          "777777": {
-            "FAST": "0x58CDCf55f2c8660674F17561334F6370cbaDeEF8"
-          }
-        }
-      },
-      "USDT": {
-        "isAppChain": false,
-        "NonMintableToken": "0x55d398326f99059fF775485246999027B3197955",
-        "Vault": "0xF391E487FE3958F0728436Af84455Fd4eBC9c7c9",
-        "connectors": {
-          "777777": {
-            "FAST": "0x5F522A124EabB8bD6Ceb1a0E2A61ce2E421d9C6c"
-          }
-        }
-      },
-      "ETH": {
-        "isAppChain": false,
-        "NonMintableToken": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
-        "Vault": "0x55033cb4583f5526704Ee4C197e99504E504712c",
-        "connectors": {
-          "777777": {
-            "FAST": "0x1417f50f864ba75D5c6cb4CD14479c48Ce5166fB"
-          }
-        }
-      }
-    },
     "8453": {
       "USDC": {
         "isAppChain": false,
