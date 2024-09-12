@@ -16,14 +16,23 @@ export const pc: ProjectConstants = {
       },
     },
     [Tokens.USDC]: {
-      vaultChains: [ChainSlug.ARBITRUM],
+      vaultChains: [
+        ChainSlug.ARBITRUM,
+        ChainSlug.MAINNET,
+        ChainSlug.BSC,
+        ChainSlug.BASE,
+      ],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
       },
     },
     [Tokens.WETH]: {
-      vaultChains: [ChainSlug.ARBITRUM],
+      vaultChains: [
+        ChainSlug.ARBITRUM,
+        ChainSlug.MAINNET,
+        ChainSlug.BASE,
+      ],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
@@ -37,14 +46,19 @@ export const pc: ProjectConstants = {
       },
     },
     [Tokens.USDT]: {
-      vaultChains: [ChainSlug.ARBITRUM],
+      vaultChains: [
+        ChainSlug.ARBITRUM,
+        ChainSlug.MAINNET,
+        ChainSlug.BSC,
+        ChainSlug.BASE,
+      ],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
       },
     },
     [Tokens.ETH]: {
-      vaultChains: [ChainSlug.ARBITRUM],
+      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.MAINNET, ChainSlug.BASE, ChainSlug.BSC],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
@@ -57,19 +71,12 @@ export const pc: ProjectConstants = {
         hookType: Hooks.NO_HOOK,
       },
     },
-    [Tokens.WINR]: {
+    [Tokens.VWINR]: {
       vaultChains: [ChainSlug.ARBITRUM],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
       },
     },
-    // [Tokens.WWINR]: {
-    //   vaultChains: [ChainSlug.ARBITRUM],
-    //   controllerChains: [ChainSlug.WINR],
-    //   hook: {
-    //     hookType: Hooks.NO_HOOK,
-    //   },
-    // },
   },
 };

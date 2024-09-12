@@ -22,4 +22,5 @@ export const tokenName: { [key in Tokens]: string } = {
   [Tokens.ARB]: "Arbitrum",
   [Tokens.WWINR]: "Wrapped WINR",
   [Tokens.WINR]: "WINR",
+  [Tokens.VWINR]: "Vested WINR",
 };

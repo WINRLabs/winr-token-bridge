@@ -20,4 +20,5 @@ export enum Tokens {
   ARB = "ARB",
   WWINR = "WWINR",
   WINR = "WINR",
+  VWINR = "VWINR",
 }

@@ -22,4 +22,5 @@ export const tokenSymbol: { [key in Tokens]: string } = {
   [Tokens.ARB]: "ARB",
   [Tokens.WWINR]: "WWINR",
   [Tokens.WINR]: "WINR",
+  [Tokens.VWINR]: "VWINR",
 };

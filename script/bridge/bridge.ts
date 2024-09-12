@@ -18,7 +18,7 @@ const srcChain = ChainSlug.ARBITRUM;
 const dstChain = ChainSlug.WINR;
 const gasLimit = 5_000_000;
 // without decimals
-const amount = 3;
+const amount = 14468;
 
 export const main = async () => {
   try {
@@ -59,6 +59,8 @@ export const main = async () => {
     const balance: BigNumber = await tokenContract.balanceOf(
       socketSigner.address
     );
+
+    console.log("balance: ", balance.toString());
     if (balance.lt(amountBN)) throw new Error("Not enough balance");
 
     const currentApproval: BigNumber = await tokenContract.allowance(

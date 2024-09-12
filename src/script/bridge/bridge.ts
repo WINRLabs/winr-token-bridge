@@ -24,11 +24,11 @@ import {
   STTokenAddresses,
 } from "../../types";
 
-const srcChain = ChainSlug.WINR;
-const dstChain = ChainSlug.ARBITRUM;
+const srcChain = ChainSlug.ARBITRUM;
+const dstChain = ChainSlug.WINR;
 const gasLimit = 5_000_000;
 // without decimals
-const amount = 0.0001;
+const amount = 0.004;
 
 export const main = async () => {
   try {
@@ -69,6 +69,8 @@ export const main = async () => {
     const balance: BigNumber = await tokenContract.balanceOf(
       socketSigner.address
     );
+
+    console.log(balance.toString());
     if (balance.lt(amountBN)) throw new Error("Not enough balance");
 
     const currentApproval: BigNumber = await tokenContract.allowance(
