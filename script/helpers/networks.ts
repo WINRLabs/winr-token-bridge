@@ -4,6 +4,7 @@ import { resolve } from "path";
 import { ChainSlug, ChainSlugToKey } from "@socket.tech/dl-core";
 import { getOwnerSignerKey } from "../constants/config";
 import { chainSlugReverseMap } from "../setup/enumMaps";
+import { getChainName } from "../constants";
 
 const dotenvConfigPath: string = process.env.DOTENV_CONFIG_PATH || "./.env";
 dotenvConfig({ path: resolve(__dirname, dotenvConfigPath) });
@@ -49,7 +50,7 @@ export const overrides: {
   [ChainSlug.ARBITRUM]: {
     // type,
     // gasLimit: 2_000_000,
-    gasPrice,
+    // gasPrice,
   },
   [ChainSlug.AEVO]: {
     type: 1,
@@ -77,19 +78,19 @@ export const overrides: {
     gasPrice,
   },
   [ChainSlug.POLYGON_MAINNET]: {
-    type: 1,
-    gasLimit: 5_000_000,
-    gasPrice: 250_000_000_000,
+    // type: 1,
+    // gasLimit: 1_000_000,
+    // gasPrice: 50_000_000_000,
   },
   [ChainSlug.BSC]: {
-    type: 1,
-    gasLimit: 5_000_000,
-    gasPrice: 5_000_000_000,
+    // type: 1,
+    // gasLimit: 1_000_000,
+    // gasPrice: 10_000_000_000,
   },
   [ChainSlug.BASE]: {
     // type: 1,
-    gasLimit: 5_000_000,
-    gasPrice,
+    // gasLimit: 5_000_000,
+    // gasPrice,
   },
   [ChainSlug.REYA_CRONOS]: {
     type: 1,
@@ -109,8 +110,8 @@ export const overrides: {
 };
 
 export const rpcKeys = (chainSlug: ChainSlug) => {
-  const chainName = chainSlugReverseMap.get(String(chainSlug));
-  return chainName ? `${chainName.toUpperCase()}_RPC` : "";
+  const chainName = getChainName(chainSlug);
+  return chainName ? `${chainName}_RPC` : "";
 };
 
 export function getJsonRpcUrl(chain: ChainSlug): string {

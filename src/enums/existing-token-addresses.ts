@@ -13,6 +13,7 @@ export const ExistingTokenAddresses: {
     [Tokens.WSTETH]: "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0",
     [Tokens.DAI]: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    [Tokens.USDE]: "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
   },
   [ChainSlug.OPTIMISM]: {
     [Tokens.USDC]: "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
@@ -64,6 +65,7 @@ export const ExistingTokenAddresses: {
     [Tokens.STIME]: "0x17AfF554423D2C40A1BBF51b443E9d43dd8AE1eb",
     [Tokens.ARB]: "0x912CE59144191C1204E64559FE8253a0e49E6548",
     [Tokens.VWINR]: "0x63097E97BA51b64547Cf1F4Ba154495D7af74582",
+    [Tokens.MAGIC]: "0x539bde0d7dbd336b79148aa742883198bbf60342",
   },
   [ChainSlug.ARBITRUM_SEPOLIA]: {
     [Tokens.USDC]: "0x8537307810fC40F4073A12a38554D4Ff78EfFf41",

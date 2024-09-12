@@ -23,4 +23,6 @@ export const tokenDecimals: { [key in Tokens]: number } = {
   [Tokens.WWINR]: 18,
   [Tokens.WINR]: 18,
   [Tokens.VWINR]: 18,
+  [Tokens.USDE]: 6,
+  [Tokens.MAGIC]: 18,
 };
