@@ -28,11 +28,7 @@ export const pc: ProjectConstants = {
       },
     },
     [Tokens.WETH]: {
-      vaultChains: [
-        ChainSlug.ARBITRUM,
-        ChainSlug.MAINNET,
-        ChainSlug.BASE,
-      ],
+      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.MAINNET, ChainSlug.BASE],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
@@ -58,7 +54,12 @@ export const pc: ProjectConstants = {
       },
     },
     [Tokens.ETH]: {
-      vaultChains: [ChainSlug.ARBITRUM, ChainSlug.MAINNET, ChainSlug.BASE, ChainSlug.BSC],
+      vaultChains: [
+        ChainSlug.ARBITRUM,
+        ChainSlug.MAINNET,
+        ChainSlug.BASE,
+        ChainSlug.BSC,
+      ],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,
