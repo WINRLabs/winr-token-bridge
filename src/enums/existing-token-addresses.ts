@@ -14,6 +14,7 @@ export const ExistingTokenAddresses: {
     [Tokens.DAI]: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.USDE]: "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    [Tokens.SUSDE]: "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
   },
   [ChainSlug.OPTIMISM]: {
     [Tokens.USDC]: "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
@@ -25,6 +26,7 @@ export const ExistingTokenAddresses: {
     [Tokens.WSTETH]: "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
     [Tokens.DAI]: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    [Tokens.SUSDE]: "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
   },
   [ChainSlug.BSC]: {
     [Tokens.USDT]: "0x55d398326f99059fF775485246999027B3197955",
@@ -51,6 +53,7 @@ export const ExistingTokenAddresses: {
     [Tokens.DAI]: "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.USDT]: "0xfde4C96c8593536E31F229EA8f37b2ADa2699bb2",
+    [Tokens.SUSDE]: "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
   },
   [ChainSlug.ARBITRUM]: {
     [Tokens.USDC]: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
@@ -66,6 +69,7 @@ export const ExistingTokenAddresses: {
     [Tokens.ARB]: "0x912CE59144191C1204E64559FE8253a0e49E6548",
     [Tokens.VWINR]: "0x63097E97BA51b64547Cf1F4Ba154495D7af74582",
     [Tokens.MAGIC]: "0x539bde0d7dbd336b79148aa742883198bbf60342",
+    [Tokens.SUSDE]: "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
   },
   [ChainSlug.ARBITRUM_SEPOLIA]: {
     [Tokens.USDC]: "0x8537307810fC40F4073A12a38554D4Ff78EfFf41",
@@ -104,5 +108,8 @@ export const ExistingTokenAddresses: {
     [Tokens.WETH]: "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeşeeEEeE",
     [Tokens.WBTC]: "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7",
+  },
+  [ChainSlug.REYA]: {
+    [Tokens.SUSDE]: "0x2339D41f410EA761F346a14c184385d15f7266c4",
   },
 };

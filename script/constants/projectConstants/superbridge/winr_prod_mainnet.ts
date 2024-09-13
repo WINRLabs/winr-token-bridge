@@ -19,7 +19,7 @@ export const pc: ProjectConstants = {
       vaultChains: [
         ChainSlug.ARBITRUM,
         ChainSlug.MAINNET,
-        // ChainSlug.BSC,
+        ChainSlug.BSC,
         ChainSlug.BASE,
       ],
       controllerChains: [ChainSlug.WINR],
@@ -45,7 +45,7 @@ export const pc: ProjectConstants = {
       vaultChains: [
         ChainSlug.ARBITRUM,
         ChainSlug.MAINNET,
-        // ChainSlug.BSC,
+        ChainSlug.BSC,
         ChainSlug.BASE,
       ],
       controllerChains: [ChainSlug.WINR],
@@ -58,7 +58,7 @@ export const pc: ProjectConstants = {
         ChainSlug.ARBITRUM,
         ChainSlug.MAINNET,
         ChainSlug.BASE,
-        // ChainSlug.BSC,
+        ChainSlug.BSC,
       ],
       controllerChains: [ChainSlug.WINR],
       hook: {

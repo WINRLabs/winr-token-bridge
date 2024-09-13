@@ -56,7 +56,7 @@
     "script:bridge": "npx ts-node script/bridge/bridge.ts",
     "project:new": "npx ts-node script/script.ts new",
     "project:edit": "npx ts-node script/script.ts edit",
-    "project:addToken": "npx ts-node script/script.ts addToken",
+    "project:addToken": "npx ts-node script/script.ts add_token",
     "bridge": "npx hardhat run script/bridge/bridge.ts"
   },
   "pre-commit": [
@@ -66,7 +66,7 @@
   "dependencies": {
     "@arbitrum/sdk": "^3.7.0",
     "@eth-optimism/sdk": "^3.3.2",
-    "@socket.tech/dl-core": "^2.22.0",
+    "@socket.tech/dl-core": "^2.27.0",
     "lodash": "^4.17.21",
     "prompts": "^2.4.2"
   }
