@@ -15,10 +15,10 @@ import { getSignerFromChainSlug, overrides } from "../helpers/networks";
 import { checkSendingLimit, getDLAPIBaseUrl } from "./utils";
 
 const srcChain = ChainSlug.ARBITRUM;
-const dstChain = ChainSlug.OPTIMISM;
+const dstChain = ChainSlug.WINR;
 const gasLimit = 500_000;
 // without decimals
-const amount = 1;
+const amount = 0.1;
 
 export const main = async () => {
   try {
