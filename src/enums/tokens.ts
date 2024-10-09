@@ -24,4 +24,5 @@ export enum Tokens {
   USDE = "USDe",
   MAGIC = "MAGIC",
   SUSDE = "SUSDE",
+  BOOP = "BOOP",
 }

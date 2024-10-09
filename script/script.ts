@@ -1,6 +1,5 @@
 #!/usr/bin/env ts-node
 
-import { initDeploymentConfig } from "./constants";
 import { addProject } from "./setup/newProject/main";
 import { addNewToken } from "./setup/addNewToken";
 import { editProject } from "./setup/editProject";

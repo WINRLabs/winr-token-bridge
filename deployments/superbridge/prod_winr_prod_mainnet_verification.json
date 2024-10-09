@@ -189,6 +189,23 @@
   ],
   "42161": [
     [
+      "0x0281225C3c218720d249ED8020D369ffAB75EDbf",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0xA2e5C9a9E2F3351bB27d2eEDAa35E1672e4E1e34",
+        "0x37cc674582049b579571E2fFd890a4d99355f6Ba",
+        777777,
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    ],
+    [
+      "0xA2e5C9a9E2F3351bB27d2eEDAa35E1672e4E1e34",
+      "Vault",
+      "contracts/bridge/Vault.sol",
+      ["0x13A7DeDb7169a17bE92B0E3C7C2315B46f4772B3"]
+    ],
+    [
       "0x57De6c865c97cf4308E35ab892D3E4233be90303",
       "ConnectorPlug",
       "contracts/ConnectorPlug.sol",
@@ -350,6 +367,23 @@
     ]
   ],
   "777777": [
+    [
+      "0x5090D04898bA25a4e5F3b00b19c5C1C5A4f69869",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x962291395886E83fb9947C20797df82C8Ae358A1",
+        "0x565810cbfa3Cf1390963E5aFa2fB953795686339",
+        42161,
+        "0x0000000000000000000000000000000000000000000000000000000000000000"
+      ]
+    ],
+    [
+      "0x962291395886E83fb9947C20797df82C8Ae358A1",
+      "Controller",
+      "contracts/bridge/Controller.sol",
+      ["0x80ff76cc453C6d8C52092Bdd8b69144DCd64fE73"]
+    ],
     [
       "0x0E72f87ca002687b12b4b86AEf59dA8da9A8E0c6",
       "ConnectorPlug",

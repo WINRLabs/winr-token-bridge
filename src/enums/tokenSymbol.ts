@@ -26,4 +26,5 @@ export const tokenSymbol: { [key in Tokens]: string } = {
   [Tokens.USDE]: "USDe",
   [Tokens.MAGIC]: "MAGIC",
   [Tokens.SUSDE]: "SUSDE",
+  [Tokens.BOOP]: "BOOP",
 };

@@ -67,6 +67,7 @@ export const main = async () => {
           let siblingSlugs: ChainSlug[] = Object.keys(connectors).map((k) =>
             parseInt(k)
           ) as ChainSlug[];
+
           if (siblingFilterChains) {
             siblingSlugs = siblingSlugs.filter((c) =>
               siblingFilterChains!.includes(c)

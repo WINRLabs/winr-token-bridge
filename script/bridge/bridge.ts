@@ -14,48 +14,51 @@ import { getBridgeContract, getTokenContract } from "../helpers/common";
 import { getSignerFromChainSlug, overrides } from "../helpers/networks";
 import { checkSendingLimit, getDLAPIBaseUrl } from "./utils";
 
-const srcChain = ChainSlug.ARBITRUM;
-const dstChain = ChainSlug.WINR;
+const srcChain = ChainSlug.WINR;
+const dstChain = ChainSlug.BSC;
 const gasLimit = 500_000;
+const token = Tokens.USDC;
 // without decimals
-const amount = 0.1;
+const amount = 200000000000;
 
 export const main = async () => {
   try {
-    const argv = await yargs
-      .option({
-        srcChain: {
-          description: "srcChainSlug",
-          type: "string",
-          demandOption: true,
-        },
-      })
-      .option({
-        dstChain: {
-          description: "dstChainSlug",
-          type: "string",
-          demandOption: true,
-        },
-      })
-      .option({
-        amount: {
-          description: "token amount to bridge (formatted value)",
-          type: "string",
-          demandOption: true,
-        },
-      })
-      .option({
-        token: {
-          description: "token",
-          type: "string",
-          demandOption: true,
-        },
-      }).argv;
+    // const argv = await yargs
+    //   .option({
+    //     srcChain: {
+    //       description: "srcChainSlug",
+    //       type: "string",
+    //       demandOption: true,
 
-    const srcChain = Number(argv.srcChain) as ChainSlug;
-    const dstChain = Number(argv.dstChain) as ChainSlug;
-    const amount = argv.amount;
-    const token = argv.token as Tokens;
+    //     },
+    //   })
+    //   .option({
+    //     dstChain: {
+    //       description: "dstChainSlug",
+    //       type: "string",
+    //       demandOption: true,
+    //       alias: "dst",
+    //     },
+    //   })
+    //   .option({
+    //     amount: {
+    //       description: "token amount to bridge (formatted value)",
+    //       type: "string",
+    //       demandOption: true,
+    //     },
+    //   })
+    //   .option({
+    //     token: {
+    //       description: "token",
+    //       type: "string",
+    //       demandOption: true,
+    //     },
+    //   }).argv;
+
+    // const srcChain = Number(argv.srcChain) as ChainSlug;
+    // const dstChain = Number(argv.dstChain) as ChainSlug;
+    // const amount = argv.amount;
+    // const token = argv.token as Tokens;
 
     if (!Object.values(Tokens).includes(token))
       throw Error("token not allowed");

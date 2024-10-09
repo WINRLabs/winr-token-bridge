@@ -96,10 +96,10 @@ liveNetworks.forEach((n) => {
 });
 
 const config: HardhatUserConfig = {
-  defaultNetwork: "arbitrum",
+  defaultNetwork: HardhatChainName.WINR,
   abiExporter: {
     path: "artifacts/abi",
-    flat: true,
+    flat: false,
   },
   etherscan: {
     apiKey: {
@@ -113,6 +113,7 @@ const config: HardhatUserConfig = {
       [HardhatChainName.OPTIMISM_SEPOLIA]: process.env.OPTIMISM_API_KEY || "",
       polygon: process.env.POLYGONSCAN_API_KEY || "",
 
+      [HardhatChainName.WINR]: "none",
       [HardhatChainName.BASE]: process.env.BASESCAN_API_KEY || "",
       [HardhatChainName.LYRA]: "none",
       [HardhatChainName.LYRA_TESTNET]: "none",
@@ -190,11 +191,11 @@ const config: HardhatUserConfig = {
         },
       },
       {
-        network: "winr",
+        network: HardhatChainName.WINR,
         chainId: 777777,
         urls: {
-          apiURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/api?",
-          browserURL: "https://explorerl2new-winr-mainnet-0.t.conduit.xyz/",
+          apiURL: "https://explorer.winr.games/api?",
+          browserURL: "https://explorer.winr.games/",
         },
       },
       {
