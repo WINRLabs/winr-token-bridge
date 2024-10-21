@@ -6,6 +6,7 @@ import {
 import { Hooks, ProjectConstants } from "../../../../src";
 import { Tokens } from "../../../../src/enums";
 
+// For testnet deployments, ChainSlug enum may not have some chains, therefore some keys will look like {421614:{}} instead of {[ChainSlug.ARBITRUM_SEPOLIA]:{}}. This wont affect the functionality of the project.
 export const pc: ProjectConstants = {
   [DeploymentMode.PROD]: {
     [Tokens.USDCE]: {
@@ -81,6 +82,48 @@ export const pc: ProjectConstants = {
     },
     [Tokens.BOOP]: {
       vaultChains: [ChainSlug.ARBITRUM],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.SPX]: {
+      vaultChains: [ChainSlug.BASE, ChainSlug.MAINNET],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.BRETT]: {
+      vaultChains: [ChainSlug.BASE],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.TOSHI]: {
+      vaultChains: [ChainSlug.BASE],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.PEPE]: {
+      vaultChains: [ChainSlug.MAINNET],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.MOG]: {
+      vaultChains: [ChainSlug.MAINNET, ChainSlug.BASE],
+      controllerChains: [ChainSlug.WINR],
+      hook: {
+        hookType: Hooks.NO_HOOK,
+      },
+    },
+    [Tokens.SHIB]: {
+      vaultChains: [ChainSlug.MAINNET],
       controllerChains: [ChainSlug.WINR],
       hook: {
         hookType: Hooks.NO_HOOK,

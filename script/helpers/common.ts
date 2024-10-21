@@ -179,6 +179,11 @@ export const getHookContract = async (
     contractName = HookContracts.LimitExecutionHook;
   }
 
+  if (addr[HookContracts.DecimalHook]) {
+    address = addr[HookContracts.DecimalHook];
+    contractName = HookContracts.DecimalHook;
+  }
+
   if (!address || !contractName) {
     return { hookContract: contract, hookContractName: contractName };
   }

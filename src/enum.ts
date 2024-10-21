@@ -40,6 +40,7 @@ export enum HookContracts {
   ControllerYieldLimitExecutionHook = "Controller_YieldLimitExecHook",
   VaultYieldLimitExecutionHook = "Vault_YieldLimitExecHook",
   ExecutionHelper = "ExecutionHelper",
+  DecimalHook = "DecimalHook",
 }
 export enum SuperTokenContracts {
   NonSuperToken = "NonSuperToken",

@@ -96,7 +96,7 @@ liveNetworks.forEach((n) => {
 });
 
 const config: HardhatUserConfig = {
-  defaultNetwork: HardhatChainName.WINR,
+  defaultNetwork: HardhatChainName.BASE,
   abiExporter: {
     path: "artifacts/abi",
     flat: false,

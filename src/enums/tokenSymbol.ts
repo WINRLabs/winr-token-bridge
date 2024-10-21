@@ -27,4 +27,10 @@ export const tokenSymbol: { [key in Tokens]: string } = {
   [Tokens.MAGIC]: "MAGIC",
   [Tokens.SUSDE]: "SUSDE",
   [Tokens.BOOP]: "BOOP",
+  [Tokens.SPX]: "SPX",
+  [Tokens.BRETT]: "BRETT",
+  [Tokens.TOSHI]: "TOSHI",
+  [Tokens.PEPE]: "PEPE",
+  [Tokens.MOG]: "MOG",
+  [Tokens.SHIB]: "SHIB",
 };

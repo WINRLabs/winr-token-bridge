@@ -25,4 +25,10 @@ export enum Tokens {
   MAGIC = "MAGIC",
   SUSDE = "SUSDE",
   BOOP = "BOOP",
+  SPX = "SPX",
+  BRETT = "BRETT",
+  TOSHI = "TOSHI",
+  PEPE = "PEPE",
+  MOG = "MOG",
+  SHIB = "SHIB",
 }

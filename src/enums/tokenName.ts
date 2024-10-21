@@ -27,4 +27,10 @@ export const tokenName: { [key in Tokens]: string } = {
   [Tokens.MAGIC]: "magic",
   [Tokens.SUSDE]: "Staked USDe",
   [Tokens.BOOP]: "Boop",
+  [Tokens.SPX]: "SPX6900",
+  [Tokens.BRETT]: "Brett",
+  [Tokens.TOSHI]: "Toshi",
+  [Tokens.PEPE]: "Pepe",
+  [Tokens.MOG]: "Mog Coin",
+  [Tokens.SHIB]: "SHIBA INU",
 };
